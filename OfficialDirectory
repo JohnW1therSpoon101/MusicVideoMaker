@@ -51,3 +51,13 @@ WMT_MUSICVIDEO (folder) (located in MusicVideoMaker)
 - - - Scene05_Outr_Notes.txt
 - - - Scene05_Outro.json
 - storyboard (folder)
+
+builder (folder)(located in MusicVideoMaker) 
+- requirements.txt
+- main.py
+- lipsync.py
+- camera.py
+- fx.py
+- utils.py
+- config.yaml
+- scene.schema.md
