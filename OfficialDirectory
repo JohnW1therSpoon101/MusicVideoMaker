@@ -1,0 +1,48 @@
+Directory to go off of..
+WMT_MUSICVIDEO (folder)
+
+- audio (folder)
+- - bass.wav
+- - drums.wav
+- - other.wav
+- - vocals.wav
+- - Wasting_my_time_STXRN_RJ_WOODS.wav
+- backgrounds (folder)
+- - BarInterior_Empty.png
+- - CrowdArea_Empty.png
+- - LoungeBooth_Empty.png
+- - OutroRoom_Empty.png
+- - PerformanceStage_Empty.png
+- characters (folder)
+- - Audience.png
+- - Bass_Player_fullbody.png
+- - Drummer_fullbody.png
+- - FX_Guy_fullbody.png
+- - Guitar_Player_fullbody.png
+- - Jalissa_fullbody.png
+- - Piano_Player_fullbody.png
+- - RJ_Woods_fullbody.png
+- - Stxrn_fullbody.png
+- exports (folder)
+- plan (folder)
+- - WMT_BeatSyncChart_WastingMyTime.png
+- - WMT_MusicVideo_Plan.md
+- - WMT_SceneTimestamps.csv
+- - WMT_SceneTimestamps.json
+- scenes (folder)
+- - Scene01_Performance (folder)
+- - - Scene01_Performance_Notes.txt
+- - - Scene01_Performance.json
+- - Scene02_Chorus_Bar (folder)
+- - - Scene02_Chorus_Bar_Notes.txt
+- - - Scene02_Chorus_Bar.json
+- - Scene03_Performance_Transition (folder)
+- - - Scene03_Performance_Transition_Notes.txt
+- - - Scene03_Performance_Transition.json
+- - Scene04_Lounge_Argument (folder)
+- - - Scene04_Lounge_Argument_Notes.txt
+- - - Scene04_Lounge_Argument.json
+- - Scene05_Outro (folder)
+- - - Scene05_Outr_Notes.txt
+- - - Scene05_Outro.json
+- storyboard (folder)
