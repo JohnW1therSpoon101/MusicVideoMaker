@@ -1,0 +1,37 @@
+[
+  {
+    "scene": "Performance Scene",
+    "start": "00:00",
+    "end": "00:43",
+    "duration": "43s",
+    "purpose": "Opening stage sequence \u2013 establish band + vibe"
+  },
+  {
+    "scene": "Bar + Crowd Chorus",
+    "start": "00:43",
+    "end": "01:24",
+    "duration": "41s",
+    "purpose": "RJ singing on stage intercut with RJ at the bar + crowd reactions"
+  },
+  {
+    "scene": "Performance Transition",
+    "start": "01:24",
+    "end": "01:40",
+    "duration": "16s",
+    "purpose": "Lighting shift + build into Verse 2 (focus back on Stxrn)"
+  },
+  {
+    "scene": "Lounge Argument",
+    "start": "01:40",
+    "end": "02:45",
+    "duration": "65s",
+    "purpose": "Stxrn verse intercut with Jalissa argument in private lounge + performance cutaways"
+  },
+  {
+    "scene": "Outro Scene",
+    "start": "02:45",
+    "end": "03:00",
+    "duration": "15s",
+    "purpose": "Band packing up, camera pull-back, lights fade"
+  }
+]

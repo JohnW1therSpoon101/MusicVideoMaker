@@ -1,0 +1,31 @@
+{
+  "scene": "Bar + Crowd Chorus",
+  "start": "00:43",
+  "end": "01:24",
+  "background": "backgrounds/BarInterior_Empty.png",
+  "characters": [
+    "RJ_Woods_fullbody.png"
+  ],
+  "intercut": {
+    "background_alt": "backgrounds/CrowdArea_Empty.png"
+  },
+  "effects": [
+    "bar_reflections",
+    "ambient_smoke"
+  ],
+  "camera_cues": [
+    {
+      "t": "00:45",
+      "move": "slow zoom RJ"
+    },
+    {
+      "t": "01:00",
+      "move": "cut to crowd POV"
+    },
+    {
+      "t": "01:12",
+      "move": "RJ close-up"
+    }
+  ],
+  "notes": "Chorus sequence intercut between RJ at bar and crowd reactions."
+}

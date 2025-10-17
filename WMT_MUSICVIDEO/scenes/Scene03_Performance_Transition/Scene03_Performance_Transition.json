@@ -1,0 +1,24 @@
+{
+  "scene": "Performance Transition",
+  "start": "01:24",
+  "end": "01:40",
+  "background": "backgrounds/PerformanceStage_Empty.png",
+  "characters": [
+    "Stxrn_fullbody.png"
+  ],
+  "effects": [
+    "spotlight_shift",
+    "haze_med"
+  ],
+  "camera_cues": [
+    {
+      "t": "01:28",
+      "move": "dim lights"
+    },
+    {
+      "t": "01:32",
+      "move": "push-in Stxrn"
+    }
+  ],
+  "notes": "Short transition scene focusing on Stxrn preparing for next verse."
+}

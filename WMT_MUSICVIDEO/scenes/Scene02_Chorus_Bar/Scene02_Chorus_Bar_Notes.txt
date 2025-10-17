@@ -1,0 +1,9 @@
+Bar + Crowd Chorus (00:43 - 01:24)
+Background: backgrounds/BarInterior_Empty.png
+Characters: RJ_Woods_fullbody.png
+Effects: bar_reflections, ambient_smoke
+Camera Cues:
+ - 00:45: slow zoom RJ
+ - 01:00: cut to crowd POV
+ - 01:12: RJ close-up
+Notes: Chorus sequence intercut between RJ at bar and crowd reactions.

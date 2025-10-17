@@ -1,0 +1,8 @@
+Outro / Closing Shot (02:45 - 03:00)
+Background: backgrounds/OutroRoom_Empty.png
+Characters: None
+Effects: neon_sign_glow, lights_fade
+Camera Cues:
+ - 02:50: slow zoom out
+ - 02:58: fade to black
+Notes: Closing shot of The Burgundy Room; lights fade, empty stage.

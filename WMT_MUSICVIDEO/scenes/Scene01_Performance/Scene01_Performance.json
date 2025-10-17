@@ -1,0 +1,34 @@
+{
+  "scene": "Performance Scene",
+  "start": "00:00",
+  "end": "00:43",
+  "background": "backgrounds/PerformanceStage_Empty.png",
+  "characters": [
+    "RJ_Woods_fullbody.png",
+    "Stxrn_fullbody.png",
+    "Bass_Player_fullbody.png",
+    "Guitar_Player_fullbody.png",
+    "Drummer_fullbody.png",
+    "Piano_Player_fullbody.png",
+    "FX_Guy_fullbody.png"
+  ],
+  "effects": [
+    "stage_haze_low",
+    "gold_spotlights_soft"
+  ],
+  "camera_cues": [
+    {
+      "t": "00:05",
+      "move": "pan L\u2192R"
+    },
+    {
+      "t": "00:20",
+      "move": "push-in Stxrn"
+    },
+    {
+      "t": "00:35",
+      "move": "cut to band wide"
+    }
+  ],
+  "notes": "Opening stage sequence, band introduction, warm lighting."
+}

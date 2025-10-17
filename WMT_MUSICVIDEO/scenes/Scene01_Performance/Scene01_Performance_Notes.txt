@@ -1,0 +1,9 @@
+Performance Scene (00:00 - 00:43)
+Background: backgrounds/PerformanceStage_Empty.png
+Characters: RJ_Woods_fullbody.png, Stxrn_fullbody.png, Bass_Player_fullbody.png, Guitar_Player_fullbody.png, Drummer_fullbody.png, Piano_Player_fullbody.png, FX_Guy_fullbody.png
+Effects: stage_haze_low, gold_spotlights_soft
+Camera Cues:
+ - 00:05: pan L→R
+ - 00:20: push-in Stxrn
+ - 00:35: cut to band wide
+Notes: Opening stage sequence, band introduction, warm lighting.

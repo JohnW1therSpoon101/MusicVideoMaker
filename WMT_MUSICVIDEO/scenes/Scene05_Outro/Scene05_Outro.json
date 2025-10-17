@@ -1,0 +1,22 @@
+{
+  "scene": "Outro / Closing Shot",
+  "start": "02:45",
+  "end": "03:00",
+  "background": "backgrounds/OutroRoom_Empty.png",
+  "characters": [],
+  "effects": [
+    "neon_sign_glow",
+    "lights_fade"
+  ],
+  "camera_cues": [
+    {
+      "t": "02:50",
+      "move": "slow zoom out"
+    },
+    {
+      "t": "02:58",
+      "move": "fade to black"
+    }
+  ],
+  "notes": "Closing shot of The Burgundy Room; lights fade, empty stage."
+}

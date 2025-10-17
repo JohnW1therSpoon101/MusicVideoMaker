@@ -1,0 +1,10 @@
+Lounge Argument + Performance Cutaways (01:40 - 02:45)
+Background: backgrounds/LoungeBooth_Empty.png
+Characters: Stxrn_fullbody.png, Jalissa_fullbody.png
+Effects: red_gold_gels, ambient_haze
+Camera Cues:
+ - 01:45: shot-reverse-shot
+ - 02:10: cut performance wide
+ - 02:25: cut Jalissa close-up
+ - 02:35: cut Stxrn close-up
+Notes: Argument scene intercut with live performance flashes.

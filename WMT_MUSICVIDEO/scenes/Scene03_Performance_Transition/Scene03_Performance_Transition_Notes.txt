@@ -1,0 +1,8 @@
+Performance Transition (01:24 - 01:40)
+Background: backgrounds/PerformanceStage_Empty.png
+Characters: Stxrn_fullbody.png
+Effects: spotlight_shift, haze_med
+Camera Cues:
+ - 01:28: dim lights
+ - 01:32: push-in Stxrn
+Notes: Short transition scene focusing on Stxrn preparing for next verse.
