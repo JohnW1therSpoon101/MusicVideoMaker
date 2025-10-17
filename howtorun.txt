@@ -1,0 +1,4 @@
+cd MusicVideoMaker/builder
+python3 -m venv .2DMVM && source .2DMVM/bin/activate
+pip install -r requirements.txt
+python main.py

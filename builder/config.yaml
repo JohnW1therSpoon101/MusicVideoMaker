@@ -1,0 +1,47 @@
+project_root: "../OfficialDirectory/WMT_MUSICVIDEO"
+audio:
+  master: "audio/Wasting_my_time_STXRN_RJ_WOODS.wav"
+  stems:
+    vocals: "audio/vocals.wav"
+    drums: "audio/drums.wav"
+    bass: "audio/bass.wav"
+    other: "audio/other.wav"
+backgrounds:
+  performance: "backgrounds/PerformanceStage_Empty.png"
+  bar:         "backgrounds/BarInterior_Empty.png"
+  lounge:      "backgrounds/LoungeBooth_Empty.png"
+  crowd:       "backgrounds/CrowdArea_Empty.png"
+  outro:       "backgrounds/OutroRoom_Empty.png"
+characters:
+  rj:      "characters/RJ_Woods_fullbody.png"
+  stxrn:   "characters/Stxrn_fullbody.png"
+  jalissa: "characters/Jalissa_fullbody.png"
+  bass:    "characters/Bass_Player_fullbody.png"
+  guitar:  "characters/Guitar_Player_fullbody.png"
+  drums:   "characters/Drummer_fullbody.png"
+  piano:   "characters/Piano_Player_fullbody.png"
+  fx:      "characters/FX_Guy_fullbody.png"
+  audience:"characters/Audience.png"
+scenes:
+  - "scenes/Scene01_Performance/Scene01_Performance.json"
+  - "scenes/Scene02_Chorus_Bar/Scene02_Chorus_Bar.json"
+  - "scenes/Scene03_Performance_Transition/Scene03_Performance_Transition.json"
+  - "scenes/Scene04_Lounge_Argument/Scene04_Lounge_Argument.json"
+  - "scenes/Scene05_Outro/Scene05_Outro.json"
+plan:
+  timestamps_csv: "plan/WMT_SceneTimestamps.csv"
+  timestamps_json:"plan/WMT_SceneTimestamps.json"
+export:
+  preview: "../OfficialDirectory/WMT_MUSICVIDEO/exports/WMT_master_preview.mp4"
+  final:   "../OfficialDirectory/WMT_MUSICVIDEO/exports/WMT_master_final_1080p.mp4"
+video:
+  size: [1920, 1080]
+  fps: 30
+style:
+  palette: {base:"#2b0f14", burgundy:"#6d1a26", neon:"#ffb454"}
+  haze_strength: 0.18
+  flare_on_beats: true
+lip_sync:
+  enabled: true
+  engine: "rhubarb"   # or "none"
+  vocals_stem: "audio/vocals.wav"
