@@ -1,34 +1,52 @@
 {
-  "scene": "Performance Scene",
-  "start": "00:00",
-  "end": "00:43",
-  "background": "backgrounds/PerformanceStage_Empty.png",
-  "characters": [
-    "RJ_Woods_fullbody.png",
-    "Stxrn_fullbody.png",
-    "Bass_Player_fullbody.png",
-    "Guitar_Player_fullbody.png",
-    "Drummer_fullbody.png",
-    "Piano_Player_fullbody.png",
-    "FX_Guy_fullbody.png"
+  "scene_name": "Scene01_Performance",
+  "bg": "performance",
+  "start_s": 0.0,
+  "end_s": 43.0,
+
+  "camera": [
+    { "t": 5.0, "type": "panzoom", "x": 0.45, "y": 0.55, "zoom": 1.05 },
+    { "t": 20.0, "type": "panzoom", "x": 0.6, "y": 0.5, "zoom": 1.12 },
+    { "t": 35.0, "type": "cut", "x": 0.5, "y": 0.5, "zoom": 1.0 }
   ],
-  "effects": [
-    "stage_haze_low",
-    "gold_spotlights_soft"
-  ],
-  "camera_cues": [
+
+  "actors": [
     {
-      "t": "00:05",
-      "move": "pan L\u2192R"
+      "who": "rj",
+      "x": 0.25,
+      "y": 0.78,
+      "scale": 1.0,
+      "actions": [{ "t": 0.0, "type": "bob", "amp": 5 }]
     },
     {
-      "t": "00:20",
-      "move": "push-in Stxrn"
+      "who": "stxrn",
+      "x": 0.72,
+      "y": 0.75,
+      "scale": 1.0,
+      "actions": [{ "t": 0.0, "type": "bob", "amp": 6 }]
     },
-    {
-      "t": "00:35",
-      "move": "cut to band wide"
-    }
+    { "who": "bass", "x": 0.12, "y": 0.78, "scale": 0.95 },
+    { "who": "guitar", "x": 0.4, "y": 0.79, "scale": 0.95 },
+    { "who": "drums", "x": 0.55, "y": 0.82, "scale": 0.95 },
+    { "who": "piano", "x": 0.62, "y": 0.81, "scale": 0.95 },
+    { "who": "fx", "x": 0.88, "y": 0.8, "scale": 0.95 }
   ],
-  "notes": "Opening stage sequence, band introduction, warm lighting."
+
+  "crowd": {
+    "visible": true,
+    "sway": 0.02
+  },
+
+  "lip_sync": [
+    { "who": "stxrn", "start_s": 0.0, "end_s": 22.5 },
+    { "who": "rj", "start_s": 22.5, "end_s": 43.0 }
+  ],
+
+  "fx": {
+    "haze": true,
+    "flare_on_snare": true,
+    "sign_text": "The BURGUNDY ROOM"
+  },
+
+  "notes": "Opening performance sequence. Stage haze and soft gold spotlights; alternating pans between RJ Woods and Stxrn, ending with wide shot of the full band."
 }

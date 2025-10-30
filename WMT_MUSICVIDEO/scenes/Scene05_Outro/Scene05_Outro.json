@@ -1,22 +1,25 @@
 {
-  "scene": "Outro / Closing Shot",
-  "start": "02:45",
-  "end": "03:00",
-  "background": "backgrounds/OutroRoom_Empty.png",
-  "characters": [],
-  "effects": [
-    "neon_sign_glow",
-    "lights_fade"
+  "scene_name": "Scene05_Outro",
+  "bg": "outro",
+  "start_s": 165.0,
+  "end_s": 180.0,
+
+  "camera": [
+    { "t": 170.0, "type": "panzoom", "x": 0.5, "y": 0.55, "zoom": 0.95 },
+    { "t": 178.0, "type": "cut", "x": 0.5, "y": 0.55, "zoom": 1.0 }
   ],
-  "camera_cues": [
-    {
-      "t": "02:50",
-      "move": "slow zoom out"
-    },
-    {
-      "t": "02:58",
-      "move": "fade to black"
-    }
-  ],
-  "notes": "Closing shot of The Burgundy Room; lights fade, empty stage."
+
+  "actors": [],
+
+  "crowd": {
+    "visible": false
+  },
+
+  "fx": {
+    "haze": true,
+    "flare_on_snare": false,
+    "sign_text": "The BURGUNDY ROOM — Closing Scene"
+  },
+
+  "notes": "Closing shot of The Burgundy Room. Lights fade; empty stage with neon sign glow. Ends with slow zoom out and fade to black."
 }

@@ -1,33 +1,42 @@
 {
-  "scene": "Lounge Argument + Performance Cutaways",
-  "start": "01:40",
-  "end": "02:45",
-  "background": "backgrounds/LoungeBooth_Empty.png",
-  "characters": [
-    "Stxrn_fullbody.png",
-    "Jalissa_fullbody.png"
+  "scene_name": "Scene04_Lounge_Argument",
+  "bg": "lounge",
+  "start_s": 100.0,
+  "end_s": 165.0,
+
+  "camera": [
+    { "t": 105.0, "type": "cut", "x": 0.45, "y": 0.65, "zoom": 1.05 },
+    { "t": 130.0, "type": "cut", "x": 0.5, "y": 0.55, "zoom": 1.0 },
+    { "t": 145.0, "type": "panzoom", "x": 0.55, "y": 0.6, "zoom": 1.12 },
+    { "t": 155.0, "type": "panzoom", "x": 0.4, "y": 0.65, "zoom": 1.1 }
   ],
-  "effects": [
-    "red_gold_gels",
-    "ambient_haze"
-  ],
-  "camera_cues": [
+
+  "actors": [
     {
-      "t": "01:45",
-      "move": "shot-reverse-shot"
+      "who": "stxrn",
+      "x": 0.65,
+      "y": 0.78,
+      "scale": 1.0,
+      "actions": [{ "t": 0.0, "type": "bob", "amp": 5 }]
     },
     {
-      "t": "02:10",
-      "move": "cut performance wide"
-    },
-    {
-      "t": "02:25",
-      "move": "cut Jalissa close-up"
-    },
-    {
-      "t": "02:35",
-      "move": "cut Stxrn close-up"
+      "who": "jalissa",
+      "x": 0.4,
+      "y": 0.79,
+      "scale": 1.0,
+      "actions": [{ "t": 0.0, "type": "turn", "angle": 10 }]
     }
   ],
-  "notes": "Argument scene intercut with live performance flashes."
+
+  "crowd": {
+    "visible": false
+  },
+
+  "fx": {
+    "haze": true,
+    "flare_on_snare": false,
+    "sign_text": "Lounge Argument — The Burgundy Room"
+  },
+
+  "notes": "Argument scene intercut with live performance flashes. Red and gold gels with ambient haze. Camera alternates shot–reverse–shot then returns to performance closeups."
 }

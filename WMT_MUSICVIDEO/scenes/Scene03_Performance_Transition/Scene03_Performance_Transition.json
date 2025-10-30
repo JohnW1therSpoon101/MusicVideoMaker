@@ -1,24 +1,34 @@
 {
-  "scene": "Performance Transition",
-  "start": "01:24",
-  "end": "01:40",
-  "background": "backgrounds/PerformanceStage_Empty.png",
-  "characters": [
-    "Stxrn_fullbody.png"
+  "scene_name": "Scene03_Performance_Transition",
+  "bg": "performance",
+  "start_s": 84.0,
+  "end_s": 100.0,
+
+  "camera": [
+    { "t": 88.0, "type": "cut", "x": 0.5, "y": 0.55, "zoom": 1.0 },
+    { "t": 92.0, "type": "panzoom", "x": 0.6, "y": 0.5, "zoom": 1.1 }
   ],
-  "effects": [
-    "spotlight_shift",
-    "haze_med"
-  ],
-  "camera_cues": [
+
+  "actors": [
     {
-      "t": "01:28",
-      "move": "dim lights"
-    },
-    {
-      "t": "01:32",
-      "move": "push-in Stxrn"
+      "who": "stxrn",
+      "x": 0.7,
+      "y": 0.75,
+      "scale": 1.0,
+      "actions": [{ "t": 0.0, "type": "bob", "amp": 5 }]
     }
   ],
-  "notes": "Short transition scene focusing on Stxrn preparing for next verse."
+
+  "crowd": {
+    "visible": true,
+    "sway": 0.02
+  },
+
+  "fx": {
+    "haze": true,
+    "flare_on_snare": true,
+    "sign_text": "Spotlight Transition"
+  },
+
+  "notes": "Short transition scene focusing on Stxrn preparing for next verse. Includes spotlight dim and medium haze."
 }

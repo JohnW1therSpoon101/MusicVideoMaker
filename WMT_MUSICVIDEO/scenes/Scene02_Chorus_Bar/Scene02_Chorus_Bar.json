@@ -1,31 +1,35 @@
 {
-  "scene": "Bar + Crowd Chorus",
-  "start": "00:43",
-  "end": "01:24",
-  "background": "backgrounds/BarInterior_Empty.png",
-  "characters": [
-    "RJ_Woods_fullbody.png"
+  "scene_name": "Scene02_Chorus_Bar",
+  "bg": "bar",
+  "start_s": 43.0,
+  "end_s": 84.0,
+
+  "camera": [
+    { "t": 45.0, "type": "panzoom", "x": 0.5, "y": 0.7, "zoom": 1.05 },
+    { "t": 60.0, "type": "cut", "x": 0.5, "y": 0.55, "zoom": 1.0 },
+    { "t": 72.0, "type": "panzoom", "x": 0.48, "y": 0.65, "zoom": 1.1 }
   ],
-  "intercut": {
-    "background_alt": "backgrounds/CrowdArea_Empty.png"
-  },
-  "effects": [
-    "bar_reflections",
-    "ambient_smoke"
-  ],
-  "camera_cues": [
+
+  "actors": [
     {
-      "t": "00:45",
-      "move": "slow zoom RJ"
-    },
-    {
-      "t": "01:00",
-      "move": "cut to crowd POV"
-    },
-    {
-      "t": "01:12",
-      "move": "RJ close-up"
+      "who": "rj",
+      "x": 0.5,
+      "y": 0.78,
+      "scale": 1.0,
+      "actions": [{ "t": 0.0, "type": "bob", "amp": 4 }]
     }
   ],
-  "notes": "Chorus sequence intercut between RJ at bar and crowd reactions."
+
+  "crowd": {
+    "visible": true,
+    "sway": 0.03
+  },
+
+  "fx": {
+    "haze": true,
+    "flare_on_snare": false,
+    "sign_text": "The BURGUNDY ROOM — Chorus Scene"
+  },
+
+  "notes": "Chorus sequence intercut between RJ at the bar and crowd reactions. Includes soft bar reflections and ambient smoke effects."
 }
